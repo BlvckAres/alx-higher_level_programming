@@ -3,4 +3,4 @@ for digit in range(100):
     if digit == 99:
         print('{}'.format(digit))
     else:
-        print('{:02d}'.format(digit), end = ", ")
+        print('{:02d}'.format(digit), end= ", ")
