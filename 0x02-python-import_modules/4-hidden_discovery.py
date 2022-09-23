@@ -5,5 +5,5 @@ if __name__ == "__main__":
 
     chars = dir(hidden_4)
     for name in chars:
-        if [:2] != "__":
+        if name [:2] != "__":
             print(name)

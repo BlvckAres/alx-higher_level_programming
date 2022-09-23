@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     from sys import argv
-
     sum = 0
-    for num in argv[1:]:
-        sum += int(num)
-        print('{:d}'.format(sum))
+    num = len(argv)
+    for x in range(1, num):
+        sum += int(argv[i])
+        print("{}".format(sum))
