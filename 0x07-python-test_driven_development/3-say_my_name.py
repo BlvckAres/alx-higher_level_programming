@@ -3,8 +3,8 @@
 
 
 def say_my_name(first, last_name=""):
-    """
-    the function prints out the the names with a phrase "My name is".
+    """The function prints out the the names with a phrase "My name is".
+
 
     Args:
         first_name (str): first name to print
@@ -17,4 +17,4 @@ def say_my_name(first, last_name=""):
         raise TypeError("first_name must be a string")
     if not isinstance(last_name, str):
         raise TypeError("last_name must be a string")
-    print("My name is {} {}".format(first_name, last_name)) 
+    print("My name is {} {}".format(first_name, last_name))
