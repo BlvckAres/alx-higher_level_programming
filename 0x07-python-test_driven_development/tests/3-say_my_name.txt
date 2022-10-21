@@ -1,5 +1,4 @@
-
-w to Use 3-say_my_name.py
+Use 3-say_my_name.py
 ===========================
 
 This modules defines a function ``say_my_name(first_name, last_name="")``.
@@ -12,21 +11,21 @@ Usage
 ::
 
     >>> say_my_name = __import__('3-say_my_name').say_my_name
-    >>> say_my_name("Brennan", "Baraban")
-    My name is Brennan Baraban
+    >>> say_my_name("John", "Smith")
+    My name is John Smith
 
 ::
 
-    >>> say_my_name("Cornelius Maxwell", "Jones II")
-    My name is Cornelius Maxwell Jones II
+    >>> say_my_name("Walter", "White")
+    My name is Walter White
 
 The parameter ```last_name``` is optional. If no last name is provided,
 an empty string is printed instead.
 
 ::
 
-    >>> say_my_name("Brennan")
-    My name is Brennan 
+    >>> say_my_name("John")
+    My name is John
 
 Invalid Names
 =============
