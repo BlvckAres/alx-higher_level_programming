@@ -6,7 +6,6 @@ import csv
 import turtle
 import os
 
-
 class Base:
     """Defines the base model, that represents the "base" for all other shapes.
     Attributes:
