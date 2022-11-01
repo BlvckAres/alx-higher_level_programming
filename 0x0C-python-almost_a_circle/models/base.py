@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-"""Defines a module containing a class that will serve as a base for other classes.
+
+"""Defines a module containing a class that will serve as a,
+    base for other classes.
 """
 import json
 import csv
@@ -7,6 +9,7 @@ import turtle
 import os
 
 class Base:
+
     """Defines the base model, that represents the "base" for all other shapes.
     Attributes:
         __nb_objects (int): instantiated Bases.
