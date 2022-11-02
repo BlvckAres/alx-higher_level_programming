@@ -144,8 +144,7 @@ class Rectangle(Base):
         obj_dict =  {"id": self.id, "width": self.__width,
             "height": self.__height, "x": self.__x,
             "y": self.__y}
-
-	return obj_dict
+            return obj_dict
 
     def __str__(self):
         """Return the format for the str representation of the class."""
