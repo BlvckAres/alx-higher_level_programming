@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines a rectangle class."""
+
 from models.base import Base
 
 
@@ -33,6 +34,7 @@ class Rectangle(Base):
 
     @width.setter
     def width(self, value):
+        """Sets the value for width"""
         if type(value) != int:
             raise TypeError("width must be an integer")
         if value <= 0:
@@ -46,6 +48,7 @@ class Rectangle(Base):
 
     @height.setter
     def height(self, value):
+        """Sets the value for height"""
         if type(value) != int:
             raise TypeError("height must be an integer")
         if value <= 0:
@@ -59,6 +62,7 @@ class Rectangle(Base):
 
     @x.setter
     def x(self, value):
+        """Gets the x value"""
         if type(value) != int:
             raise TypeError("x must be an integer")
         if value < 0:
@@ -72,6 +76,7 @@ class Rectangle(Base):
 
     @y.setter
     def y(self, value):
+        """Gets the y value"""
         if type(value) != int:
             raise TypeError("y must be an integer")
         if value < 0:
@@ -144,7 +149,7 @@ class Rectangle(Base):
         obj_dict =  {"id": self.id, "width": self.__width,
             "height": self.__height, "x": self.__x,
             "y": self.__y}
-                return obj_dict
+        return obj_dict
 
     def __str__(self):
         """Return the format for the str representation of the class."""
