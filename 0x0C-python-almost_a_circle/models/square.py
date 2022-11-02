@@ -7,12 +7,12 @@ from models.rectangle import Rectangle
 class Square(Rectangle):
     """Represents a square"""
     def __init__(self, size, x=0, y=0, id=None):
-	"""Initialize a new square.
-	Args:
-	    size(int): size of the new Square.
-	    x (int): x coordinate of the new Square.
-	    y (int): y coordinate of the new Square.
-	    id (int): id of the Square.
+        """Initialize a new square.
+        Args:
+        size(int): size of the new Square.
+        x (int): x coordinate of the new Square.
+        y (int): y coordinate of the new Square.
+        id (int): id of the Square.
 	"""
         self.size = size
         self.x = x
