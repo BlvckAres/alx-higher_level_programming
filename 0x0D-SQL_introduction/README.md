@@ -1,0 +1,1 @@
+In this project we learn about databases and SQL queries to create, read, update and destroy data that is in a database server.
