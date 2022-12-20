@@ -1,4 +1,4 @@
-#!/usr/bin/bash/node
+#!/usr/bin/node
 const size = Math.floor(Number(process.argv[2]));
 if (isNaN(size)) {
     console.log('Missing size');}

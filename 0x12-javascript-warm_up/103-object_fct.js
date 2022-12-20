@@ -1,4 +1,4 @@
-#!/usr/bin/bash/node
+#!/usr/bin/node
 let myObject = {
   type: 'object',
   value: 12
