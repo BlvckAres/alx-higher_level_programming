@@ -1,4 +1,4 @@
-#!/usr/bin/node
+#!/usr/bin/bash/node
 if (process.argv.length <= 3) {
     console.log(0);
 }

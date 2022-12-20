@@ -1,2 +1,2 @@
-#!/usr/bin/node
+#!/usr/bin/bash/node
 exports.add = (a, b) => a + b;
