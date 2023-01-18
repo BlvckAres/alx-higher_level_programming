@@ -8,8 +8,10 @@ from sys import argv
 from urllib.request import Request, urlopen
 
 if __name__ == "__main__":
-    url = argv[1]
-
-    request = Request(url)
-    with urlopen(request) as response:
-        print(dict(response.headers).get("X-Request-Id"))
+    req = request.Request(argv[1])
+    with request.urlopen(req) as response:
+        body = str(response.info())
+        if "X-Request-Id: " in body:
+            body = body.split("X-Request-Id: ")[1]
+            answer = body.split('\n')[0]
+            print(answer)
